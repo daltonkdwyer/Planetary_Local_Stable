@@ -2,6 +2,10 @@ This program is a signalling server.
 
 It sends clients a webpage that gathers their RTCPeerConnection information (SDP), stores it, and sends it out if a new person tries to connect.
 
+LAUNCH: 
+    Run in terminal: python3 app.py
+    Open two browser windows to: 127.0.0.1:8000
+
 The program consists of:
 
     A) SERVER SIDE
