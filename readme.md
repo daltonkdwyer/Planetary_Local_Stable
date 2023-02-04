@@ -38,7 +38,7 @@ The program consists of:
                 uses a Flask version of a webserver called Green Unicorn 'gunicorn'
             - You use gunicorn, but you have no idea what this is
 
-        2) Pipfile
+        2) Pipfile (DELETE THIS- CANT HAVE BOTH THIS AND requirements.txt AS THEY ARE DUPLICATES)
             - This includes all the dependences for Heroku
             - You also kind of have no idea how it works, but you need to go into the environment somehow
             - See here: https://stackoverflow.com/questions/46330327/how-are-pipfile-and-pipfile-lock-used
@@ -46,6 +46,10 @@ The program consists of:
         3) Requirements.txt
             - This might be INSTEAD of a pipfile
             - Lists everything the Heroku server will need (kind of like a virtual environment)
+
+        4) runtime.txt
+            - this just specifies which version of python to use...? 
+                - (DD- why can't this just be in the requirements file...)
 
 Hosting
 
