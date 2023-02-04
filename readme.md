@@ -30,7 +30,8 @@ The program consists of:
 
     C) ADMIN
         1) Procfile
-            - This tells Heroku what to run. 
+            - This tells Heroku what to run on startup
+                uses a Flask version of a webserver called Green Unicorn 'gunicorn'
             - You use gunicorn, but you have no idea what this is
 
         2) Pipfile
