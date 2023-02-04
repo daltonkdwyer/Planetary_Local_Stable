@@ -43,6 +43,10 @@ The program consists of:
             - You also kind of have no idea how it works, but you need to go into the environment somehow
             - See here: https://stackoverflow.com/questions/46330327/how-are-pipfile-and-pipfile-lock-used
 
+        3) Requirements.txt
+            - This might be INSTEAD of a pipfile
+            - Lists everything the Heroku server will need (kind of like a virtual environment)
+
 Hosting
 
     A. It is hosted on heroku
@@ -50,7 +54,6 @@ Hosting
         PW: S13
 
     B. Need some weird files:
-        - Procfile
         - Pipfile
 
 
